@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>var/let/const차이점</title>
+    <script>
+        //함수블록에서의 var의 scope 설명
+        var a = 100;  //변수 a를 선언
+
+        function f(){  //함수 블록안에서 같은 변수 a를 선언
+            var a = 200;  //함수 블록안에서의 변수 a의 값은 200
+            console.log(a); //함수안의 a의 값은 200
+        }
+        console.log(a); //함수 밖의 a의 값은 100
+    </script>
+</head>
+<body>
+    <h2>var/let/const차이점</h2>
+</body>
+</html>
