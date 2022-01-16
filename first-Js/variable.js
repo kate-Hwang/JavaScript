@@ -2,7 +2,7 @@
 //상식적인 모습으로 자바스크립트를 유연하게 이용할 수 있도록
 
 
-//2. Variable(변수-변경될 수 있는 값)
+//2. Variable(변수-변경될 수 있는 값)rw(read/write 값을 읽고 쓸수 있다.)
 //let (added ES6)-Mutable
 //Block Scope
 let globalName = 'global name'; //global scope
@@ -22,13 +22,18 @@ console.log(globalName);//글로벌변수
 //끌어올려주는 것을 말한다.)
 //var는 블록스코프가 없다. 블록스코프를 철저히 무시한다.
 
-//3.Constants (Immutable)
+//3.Constant (Immutable)(only read 값을 읽기만 가능하다)
 // 왠만하면 값을 할당한 다음에 다시는 변경되지 않는 데이터 타입을 사용해라
+// 자바스크립트에서 값이 변경될 일이 없다면 왠만하면 const로 값을 지정하는게 좋다.
 // - 보안성 (security)
 // - 다양한 Thread의 변경가능성 (thread Safety)
 // - 개발자들의 실수를 방지할 수 있음 (reduce human mistakes)
 const daysInWeek = 7;
 const maxNumber = 5;
+
+//Note!
+//Immutable data types: premitive types, frozen object(데이터 자체를 변경하는 것은 불가능 하다.)
+//Mutable data types: all objects by dafault are mutable in JS(array는 자바스크립트에서 Mutable데이터타입이다.)
 
 //4. Variable Types
 //primitive, single item: number, string, boolean, null, undefined, symbol
