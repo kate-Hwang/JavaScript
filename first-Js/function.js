@@ -43,5 +43,5 @@
     }
     showMessage('fuckyou!');
 
-//4. Rest parameters -> 배열형태로 전달된다. 
+//4. Rest parameters -> 배열형태로 전달된다.
 
