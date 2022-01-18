@@ -155,3 +155,10 @@ randomQuiz('love you',printYes, printNo);
     (function hello(){
         console.log('IIFE');
     })();
+
+//새로운 퀴즈 타임
+//function calculate(command, a,b)
+//command: add,substract,divide, multiply,remainder(상단의 커맨드에서 고를것)
+//이름이 calculate라는 함수를 만들어서 입력받은 command에 따라서 a와b의 숫자값을
+//더하거나 빼거나 나누거나 곱하거나 등을 할 수 있어보아라. 만약 다른 커맨드가 
+//들어오면 어떻게 처리할 것인가에 대해서도 고민을 해볼것.
