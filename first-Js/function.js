@@ -140,11 +140,11 @@ randomQuiz('love you',printYes, printNo);
 
 //Arrow Function (익명함수로 항상 씀)
     const simplePrint = function(){
-        console.log('simplePrint');
+        console.log('simplePrint!');
     };
-
+    
     //간결하게 쓸수있고 깔끔하게 표현가능하다.
-    const simplePrint = () => console.log('simplePrint'); //arrow function
+    const simplePrint = () => console.log('simplePrint!'); //arrow function
     const add = (a,b) => a + b;
     const simplePrint = (a,b) => {
         //do something more
